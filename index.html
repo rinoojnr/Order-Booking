@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id = 'tableForm'>
+        <label>Enter The Amount : </label>
+        <input type = 'text' id = 'tablePrice'>
+        <label>Choose Dish : </label>
+        <select id = 'tableDishes'>
+            <option>Dosa</option>
+            <option>Poratta</option>
+            <option>ChickenBiriyani</option>
+            <option>Veg.Biriyani</option>
+            <option>Tea</option>
+        </select>
+        <label>Choose Table : </label>
+        <select id = 'tableName'>
+            <option>Table1</option>
+            <option>Table2</option>
+            <option>Table3</option>
+        </select>
+        <input type = 'button' id = 'addTobill' value = 'AddToBill'>
+    </form>
+    <div class="table1">
+        <h1>Table1</h1>
+        <ul id = 'table1'>
+        </ul>
+    </div>
+
+    <div class="table2">
+        <h1>Table2</h1>
+        <ul id = 'table2'>
+        </ul>
+    </div>
+
+    <div class="table3">
+        <h1>Table3</h1>
+        <ul id = 'table3'>
+        </ul>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.1/axios.min.js"></script>
+    <script src = 'index.js'></script>
+</body>
+</html>
